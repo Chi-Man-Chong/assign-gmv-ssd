@@ -503,6 +503,14 @@ The HCC stop sign model performed well for negative images (false positive ratio
 
 This paper detailed a small experiment on stop detection in GSV images using the HCC algorithm. An extensive review of background literature and algorithm implementation was done to improve understanding of the HCC based on the Viola and Jones algorithm. The experiment began with the extraction of stop sign locations to further collect GSV images for testing the performance of a pre-trained HCC stop sign model. A random selection of the collected GSV images was done to reduce the problem set to a more managable size for manual labelling. The performance evaluation measured the HCC stop sign model based on its ability to detect stop signs in GSV images, and to reject GSV images when stop signs did not exist in the image. The results showed that the HCC stop sign model had good performance in rejecting GSV images without stop signs, but poor performance when stop signs existed in GSV images. Although the detection performance was poor for this particular experiment, the advantage of the HCC algorithm lies in its ability to rapidly classify large quantities of images easily. This speed enables it to potentially be able to improve its performance by ensembling multiple HCCs to account for dynamic object appearance issues such as distortions, viewing angles, and image quality. With higher detection rates, there is potential for object detection algorithms to extract valuable and unique geospatial data from images with location metadata such as street level features, civilians, and human activity.
 
+% ================
+% Acknowledgements
+% ================
+
+\section*{Acknowledgements}
+
+I would like to thank Dr. Wai Yeung Yan for providing me the freedom to explore the experiment documented in this paper as an alternative to the term project for the course. I would also like to thank Github user \textit{markgaynor} for open sourcing the Haar Cascade Classifier model and training data used in this paper's experiment under the MIT license.
+
 % ============
 % Bibliography
 % ============
